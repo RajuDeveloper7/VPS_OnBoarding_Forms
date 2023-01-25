@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {    
+    "hr-onboarding-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hrOnboardingForm/HrOnboardingFormWebPart.js",
+          "manifest": "./src/webparts/hrOnboardingForm/HrOnboardingFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "hr-header-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hrHeader/HrHeaderWebPart.js",
+          "manifest": "./src/webparts/hrHeader/HrHeaderWebPart.manifest.json"
+        }
+      ]
+    },
+    "dashboard-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dashboard/DashboardWebPart.js",
+          "manifest": "./src/webparts/dashboard/DashboardWebPart.manifest.json"
+        }
+      ]
+    },
+    "headerpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/headerpart/HeaderpartWebPart.js",
+          "manifest": "./src/webparts/headerpart/HeaderpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {   
+    "HrOnboardingFormWebPartStrings": "lib/webparts/hrOnboardingForm/loc/{locale}.js",
+    "HrHeaderWebPartStrings": "lib/webparts/hrHeader/loc/{locale}.js",    
+    "DashboardWebPartStrings": "lib/webparts/dashboard/loc/{locale}.js",
+    "HeaderpartWebPartStrings": "lib/webparts/headerpart/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "burjeel-holding-hr-forms-client-side-solution",
+    "id": "ed4981e3-ed8c-4086-a04e-5910091ba521",
+    "version": "3.0.0.10",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/burjeel-holding-hr-forms.sppkg"
+  }
+}
